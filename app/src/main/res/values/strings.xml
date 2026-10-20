@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Air Run</string>
+
+    <!-- Navigation -->
+    <string name="nav_now">Now</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Regions -->
+    <string name="region_north">North</string>
+    <string name="region_central">Central</string>
+    <string name="region_east">East</string>
+    <string name="region_west">West</string>
+    <string name="region_south">South</string>
+    <string name="region_place">%1$s Singapore</string>
+
+    <!-- Now: header -->
+    <string name="updated_at">Updated %1$s · NEA data</string>
+    <string name="refresh">Refresh</string>
+    <string name="refresh_failed">Couldn\'t refresh. Showing readings from %1$s.</string>
+    <string name="refresh_failed_no_time">Couldn\'t refresh. Showing earlier readings.</string>
+
+    <!-- Now: verdict card -->
+    <string name="right_now">Right now</string>
+    <string name="activity_walk">Walking</string>
+    <string name="activity_jog">Jogging</string>
+    <string name="activity_intense">Intense run</string>
+    <string name="profile_sensitive_tag">Sensitive</string>
+    <string name="verdict_go_walk">Good for a walk</string>
+    <string name="verdict_go">Good to run</string>
+    <string name="verdict_caution">Go easy today</string>
+    <string name="verdict_avoid">Take it indoors</string>
+
+    <string name="body_go">Air is clean across %1$s.</string>
+    <string name="body_caution_psi">Haze is %1$s in %2$s (PSI %3$d). Keep it short and easy, and stop if you feel breathless.</string>
+    <string name="body_caution_pm25">PM2.5 is up to %1$d µg/m³ in %2$s. Keep the pace easy and cut the session short.</string>
+    <string name="body_caution_rain">%1$s expected around %2$s in the next 2 hours. Paths may be slippery, so watch your footing.</string>
+    <string name="body_caution_uv">UV is very strong right now. Run before 10 AM or after 4 PM, or stay in the shade.</string>
+    <string name="body_avoid_air">%1$s is high in %2$s. Skip outdoor runs for now; a treadmill or indoor gym is the safer choice.</string>
+    <string name="body_avoid_air_sensitive">%1$s is high in %2$s. For sensitive runners, skip outdoor runs for now; a treadmill or indoor gym is the safer choice.</string>
+    <string name="body_avoid_thunder">%1$s expected around %2$s. Lightning risk: run indoors or wait it out.</string>
+    <string name="tip_sunscreen">UV is %1$s, so wear sunscreen and a cap.</string>
+    <string name="nearby">your area</string>
+
+    <string name="deciding_factor">Deciding factor</string>
+    <string name="factor_psi">PSI %1$d</string>
+    <string name="factor_pm25">PM2.5 %1$d µg/m³</string>
+    <string name="factor_uv">UV index %1$d</string>
+
+    <!-- Now: tiles -->
+    <string name="tile_psi">PSI · 24 hr</string>
+    <string name="tile_pm25">PM2.5 · 1 hr</string>
+    <string name="tile_uv">UV index</string>
+    <string name="tile_forecast">Next 2 hr</string>
+    <string name="unit_pm25">µg/m³</string>
+    <string name="no_data">No data</string>
+    <string name="not_in_verdict">Not in verdict</string>
+
+    <string name="psi_good">Good</string>
+    <string name="psi_moderate">Moderate</string>
+    <string name="psi_unhealthy">Unhealthy</string>
+    <string name="psi_very_unhealthy">Very unhealthy</string>
+    <string name="psi_hazardous">Hazardous</string>
+
+    <string name="pm25_normal">Normal · Band I</string>
+    <string name="pm25_elevated">Elevated · Band II</string>
+    <string name="pm25_high">High · Band III</string>
+    <string name="pm25_very_high">Very high · Band IV</string>
+
+    <string name="uv_low">Low</string>
+    <string name="uv_moderate">Moderate</string>
+    <string name="uv_high">High</string>
+    <string name="uv_very_high">Very high</string>
+    <string name="uv_extreme">Extreme</string>
+
+    <string name="rain_dry">No rain</string>
+    <string name="rain_wet">Rain likely</string>
+    <string name="rain_thundery">Thunder risk</string>
+
+    <string name="footer_general">Profile: General adult · Pull down to refresh</string>
+    <string name="footer_sensitive">Profile: Sensitive · thresholds one level stricter</string>
+
+    <!-- Now: loading / error -->
+    <string name="loading">Checking the air…</string>
+    <string name="error_title">Couldn\'t reach NEA</string>
+    <string name="error_body">Air Run needs the internet to fetch live readings. Check your connection and try again.</string>
+    <string name="retry">Try again</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_subtitle">Changes apply to the Now screen instantly</string>
+    <string name="settings_where">Where you run</string>
+    <string name="settings_where_help">PSI and PM2.5 come from this NEA region; the 2-hr forecast uses its nearest town.</string>
+    <string name="settings_where_help_town">PSI and PM2.5 come from this NEA region; the 2-hr forecast uses its nearest town, %1$s.</string>
+    <string name="settings_who">Who is running</string>
+    <string name="profile_general">General adult</string>
+    <string name="profile_sensitive">Sensitive</string>
+    <string name="settings_who_help">Sensitive (asthma, elderly, children) makes every threshold one level stricter, following NEA health advisories.</string>
+    <string name="settings_intensity">Intensity</string>
+    <string name="intensity_walk">Walk</string>
+    <string name="intensity_jog">Jog</string>
+    <string name="intensity_intense">Intense</string>
+    <string name="settings_intensity_help">Harder sessions mean deeper breathing, so the PM2.5 limit tightens and the advice changes.</string>
+    <string name="settings_include">Include in verdict</string>
+    <string name="include_rain">Rain forecast</string>
+    <string name="include_rain_help">Next 2 hr, from NEA</string>
+    <string name="include_uv">UV index</string>
+    <string name="include_uv_help">Turn off for evening runs; the tile greys out</string>
+    <string name="settings_footnote">Levels follow NEA PSI bands and 1-hr PM2.5 bands. The verdict uses the worst included factor.</string>
+</resources>
